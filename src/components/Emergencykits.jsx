@@ -11,7 +11,7 @@ export default function Emergencykits() {
                   <h2 className="text-3xl md:text-5xl font-bold leading-tight text-[#012c4f] uppercase mb-4">
                       Medical Emergency Kits
                   </h2>
-                  <p className="text-xl md:text-2xl">Safety you can count on, Your essential Lifesaver</p>
+                  <p className="text-xl md:text-2xl">Safety you can count on, your essential lifesaver</p>
                   <p className="text-xl md:text-2xl">always within the reach</p>
                   <a
                       href="https://shop.californila.com"
