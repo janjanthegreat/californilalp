@@ -4,7 +4,7 @@ import { SocialIcon } from 'react-social-icons';
 export default function Footer() {
     return (
         <footer className="mt-3 bg-[#012c4f] text-white py-4">
-          <div className="container mx-auto flex flex-col lg:flex-row justify-center items-center max-w-full">
+          <div className="container mx-auto flex flex-col lg:flex-row justify-center items-center max-w-full px-10 md:p-0">
             <div className="w-full lg:w-1/2 text-center text-white/50">
               &copy; {new Date().getFullYear()} Californila | Web Design by{" "}
               <a href="https://ishkaster.com" target="_blank" className="text-yellow-300">Ishkaster Media</a> • All Rights Reserved

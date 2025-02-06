@@ -23,25 +23,25 @@ export default function Header() {
 
                 <div className="w-1/3 flex justify-end">
 
-                    <div id="toggleMenu" className="relative w-full flex justify-end">
+                    {/* <div id="toggleMenu" className="relative w-full flex justify-end">
                         <div id="nav-icon3" className={isOpen ? 'open' : ''} onClick={toggleNav}>
                             <span></span>
                             <span></span>
                             <span></span>
                             <span></span>
                         </div>
-                    </div>
+                    </div> */}
                 </div>
             </nav>
 
             <div
-                className={`${ isOpen ? 'open' : 'close' } md:p-8 p-1 position-relative text-right w-full md:w-auto transition-all duration-500 ease-out overflow-hidden bg-[#003362]`} 
+                className={`${ isOpen ? 'open' : 'close' } md:p-8 p-1 position-relative text-right w-full  md:w-auto transition-all duration-500 ease-out overflow-hidden bg-[#003362]`} 
                 id="navbar-default"
             >
                 <div className="caliMobileLogo text-center">
-                    <a href='/'><img src={mobileLogo} style={{ width: '150px', margin: '0 auto'}}/></a>
+                    <a href='/'><img src={mobileLogo} style={{ width: '120px', margin: '0 auto'}}/></a>
                 </div>
-                <div id="nav-icon3" className={`${isOpen ? 'open' : ''} close_nav_btn`} onClick={toggleNav}>
+                <div id="nav-icon3" className={`${isOpen ? 'open left-[-50px]' : 'left-[-80px]'} close_nav_btn`} onClick={toggleNav}>
                     <span></span>
                     <span></span>
                     <span></span>
@@ -50,19 +50,19 @@ export default function Header() {
                 <ul className="font-medium flex flex-col p-0 mt-10">
                     <li className="hover:bg-white transition-all duration-300 ease-in-out">
                         <a href="https://personalshopper.californila.com" className="flex flex-row  items-center txt-sm md:text-xl py-2 px-3 text-white hover:text-[#003362] transition-colors duration-300 ease-in-out">
-                            <span className='mr-2'><FontAwesomeIcon icon={faShoppingCart } /></span>
+                            <span className='mr-2'><FontAwesomeIcon icon={faShoppingCart} /></span>
                             Personal Shopper
                         </a>
                     </li>
                     <li className="hover:bg-white transition-all duration-300 ease-in-out">
                         <a href="https://shop.californila.com" className="block txt-sm md:text-xl py-2 px-3 text-white hover:text-[#003362] transition-colors duration-300 ease-in-out"> 
-                            <span className='mr-2'><FontAwesomeIcon icon={faFirstAid } /></span>
+                            <span className='mr-2'><FontAwesomeIcon icon={faStore} /></span>
                             Marketplace
                         </a>
                     </li>
                     <li className="hover:bg-white transition-all duration-300 ease-in-out">
                         <a href="https://emergencykits.californila.com" className="block text-sm md:text-xl py-2 px-3 text-white hover:text-[#003362] transition-colors duration-300 ease-in-out">
-                            <span className='mr-2'><FontAwesomeIcon icon={faStore } /></span>
+                            <span className='mr-2'><FontAwesomeIcon icon={faFirstAid} /></span>
                             Emergency Kits
                         </a>
                     </li>
