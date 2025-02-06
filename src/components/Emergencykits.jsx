@@ -8,7 +8,7 @@ export default function Emergencykits() {
         >
           <div className="s_row_content flex relative h-full w-full">
               <div className="text-center w-full flex flex-col items-center z-5 p-8 md:p-20">
-                  <h2 className="text-4xl md:text-6xl font-bold leading-tight text-[#012c4f] uppercase mb-4">
+                  <h2 className="text-3xl md:text-5xl font-bold leading-tight text-[#012c4f] uppercase mb-4">
                       Medical Emergency Kits
                   </h2>
                   <p className="text-xl md:text-2xl">Safety you can count on, Your essential Lifesaver</p>
