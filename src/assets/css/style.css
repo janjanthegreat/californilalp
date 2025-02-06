@@ -211,7 +211,7 @@ a#shop_btn:focus::after {
 }
 #caliLogo {
     opacity: 0;
-    animation: clear 0.5 1.5s forwards;
+    animation: clear 2s 0.5s forwards;
 }
 
 div#nav-icon3.close_nav_btn {
