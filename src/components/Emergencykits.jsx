@@ -14,7 +14,7 @@ export default function Emergencykits() {
                   <p className="text-xl md:text-2xl">Safety you can count on, your essential lifesaver</p>
                   <p className="text-xl md:text-2xl">always within the reach</p>
                   <a
-                      href="https://shop.californila.com"
+                      href="https://emergencykits.californila.com/"
                       id="shop_btn"
                       className="bg-[#012c4f] text-white text-xl font-bold uppercase rounded-full text-center py-2.5 px-8 mt-5"
                   >
